@@ -24,11 +24,11 @@ export default class ItemComponent extends React.Component {
 				<Text>
 					Subreddit: { this.props.postData.subreddit }
 				</Text>
-				<Text>
-					Created: { this.props.postData.created }
-				</Text>
 				<Button onPress={ () => postData(null) } title="Go Back" />
 			</View>
 		)
 	}
 }
+				// <Text>
+				// 	Created: { this.props.postData.created }
+				// </Text>

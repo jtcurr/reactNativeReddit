@@ -26,8 +26,6 @@ export class ListComponent extends React.Component {
 	}
 
 	render() {
-		//Variable to control 'if' binding
-		const thisHolder = this;
 		//Iterates through each item in api data to generate list
 		let listItems = this.props.apiData.map(function(item, key) {
 					return (
@@ -51,3 +49,6 @@ const styles = StyleSheet.create({
     borderBottomWidth: 1,
   },
 });
+
+		// //Variable to control 'if' binding
+		// const thisHolder = this;
